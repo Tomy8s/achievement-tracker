@@ -22,6 +22,7 @@ Completed 200 OK in 2198ms (Views: 2171.9ms | ActiveRecord: 0.0ms)
 Completed 200 OK in 2208ms (Views: 2180.5ms | ActiveRecord: 0.0ms)
 
 
+<<<<<<< HEAD
   [1m[35m (157.5ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying PRIMARY KEY)[0m
   [1m[35m (2.7ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
   [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(8058706565754317970);[0m
@@ -245,6 +246,13 @@ Completed 200 OK in 40ms (Views: 38.5ms | ActiveRecord: 0.0ms)
 Started GET "/navbar/" for ::1 at 2017-02-22 11:55:15 +0000
   
 ActionController::RoutingError (No route matches [GET] "/navbar"):
+=======
+  [1m[35m (779.0ms)[0m  [1m[35mCREATE DATABASE "achievment-tracker_development" ENCODING = 'unicode'[0m
+  [1m[35m (414.2ms)[0m  [1m[35mCREATE DATABASE "achievment-tracker_test" ENCODING = 'unicode'[0m
+Started GET "/acheveivements/new" for 127.0.0.1 at 2017-02-22 11:41:39 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/acheveivements/new"):
+>>>>>>> master
   
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
@@ -272,6 +280,7 @@ puma (3.7.1) lib/puma/server.rb:578:in `handle_request'
 puma (3.7.1) lib/puma/server.rb:415:in `process_client'
 puma (3.7.1) lib/puma/server.rb:275:in `block in run'
 puma (3.7.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
   Rendering /Users/jonny/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
   Rendering /Users/jonny/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
   Rendered /Users/jonny/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
@@ -283,6 +292,19 @@ puma (3.7.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/navbar/" for ::1 at 2017-02-22 11:55:34 +0000
   
 ActionController::RoutingError (No route matches [GET] "/navbar"):
+=======
+  Rendering /home/tom/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/tom/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/tom/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.9ms)
+  Rendered collection of /home/tom/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [5 times] (6.4ms)
+  Rendered /home/tom/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (15.0ms)
+  Rendering /home/tom/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/tom/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (18.0ms)
+  Rendered /home/tom/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (107.5ms)
+Started GET "/achevievements/new" for 127.0.0.1 at 2017-02-22 11:41:55 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/achevievements/new"):
+>>>>>>> master
   
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
@@ -310,6 +332,7 @@ puma (3.7.1) lib/puma/server.rb:578:in `handle_request'
 puma (3.7.1) lib/puma/server.rb:415:in `process_client'
 puma (3.7.1) lib/puma/server.rb:275:in `block in run'
 puma (3.7.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
   Rendering /Users/jonny/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
   Rendering /Users/jonny/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
   Rendered /Users/jonny/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
@@ -428,5 +451,189 @@ Processing by AcheivementsController#index as HTML
   Rendered acheivements/index.html.erb within layouts/application (0.3ms)
   Rendered shared/_navbar.html.erb (0.5ms)
 Completed 200 OK in 1228ms (Views: 1226.3ms | ActiveRecord: 0.0ms)
+=======
+  Rendering /home/tom/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/tom/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/tom/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered collection of /home/tom/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [5 times] (7.3ms)
+  Rendered /home/tom/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.9ms)
+  Rendering /home/tom/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/tom/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.5ms)
+  Rendered /home/tom/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (73.6ms)
+Started GET "/acheivements/new" for 127.0.0.1 at 2017-02-22 11:42:15 +0000
+Processing by AcheivementsController#new as HTML
+  Rendering acheivements/new.html.erb within layouts/application
+  Rendered acheivements/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 511ms (Views: 507.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/acheivements/new" for 127.0.0.1 at 2017-02-22 11:42:59 +0000
+Processing by AcheivementsController#new as HTML
+  Rendering acheivements/new.html.erb within layouts/application
+  Rendered acheivements/new.html.erb within layouts/application (7.5ms)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <%= form_for @achievement do |f| %>
+    2:   <%= f.label :name %>
+    3:   <%= f.text_field :name%>
+    4:   <%= f.label :headline %>
+  
+app/views/acheivements/new.html.erb:1:in `_app_views_acheivements_new_html_erb___3399142326620391336_30077180'
+  Rendering /home/tom/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/tom/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/tom/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (18.9ms)
+  Rendering /home/tom/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/tom/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.9ms)
+  Rendering /home/tom/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/tom/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered /home/tom/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (68.3ms)
+Started GET "/acheivements/new" for 127.0.0.1 at 2017-02-22 11:46:27 +0000
+Processing by AcheivementsController#new as HTML
+  Rendering acheivements/new.html.erb within layouts/application
+  Rendered acheivements/new.html.erb within layouts/application (4.4ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <%= form_for @achievement do |f| %>
+    2:   <%= f.label :name %>
+    3:   <%= f.text_field :name%>
+    4:   <%= f.label :team %>
+  
+app/views/acheivements/new.html.erb:1:in `_app_views_acheivements_new_html_erb___3399142326620391336_70208935080840'
+  Rendering /home/tom/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/tom/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/tom/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (23.3ms)
+  Rendering /home/tom/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/tom/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.8ms)
+  Rendering /home/tom/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/tom/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered /home/tom/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (76.7ms)
+Started GET "/acheivements/new" for 127.0.0.1 at 2017-02-22 11:46:51 +0000
+Processing by AcheivementsController#new as HTML
+  Rendering acheivements/new.html.erb within layouts/application
+  Rendered acheivements/new.html.erb within layouts/application (86.3ms)
+Completed 200 OK in 179ms (Views: 174.3ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (33.8ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying PRIMARY KEY)[0m
+  [1m[35m (15.9ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_try_advisory_lock(8058706565754317970);[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateAchievements (20170222115345)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (16.5ms)[0m  [1m[35mCREATE TABLE "achievements" ("id" serial primary key, "name" character varying, "team" character varying, "headline" character varying, "description" text, "categories" text[] DEFAULT '{}', "date" date, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20170222115345"]]
+  [1m[35m (2.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", :environment], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", 2017-02-22 11:55:16 UTC], ["updated_at", 2017-02-22 11:55:16 UTC]]
+  [1m[35m (2.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_advisory_unlock(8058706565754317970)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/acheivements/new" for 127.0.0.1 at 2017-02-22 13:17:00 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  
+ActionController::RoutingError (No route matches [GET] "/acheivements/new"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.7.1) lib/puma/configuration.rb:232:in `call'
+puma (3.7.1) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.1) lib/puma/server.rb:415:in `process_client'
+puma (3.7.1) lib/puma/server.rb:275:in `block in run'
+puma (3.7.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /home/tom/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/tom/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/tom/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.4ms)
+  Rendered collection of /home/tom/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [9 times] (8.2ms)
+  Rendered /home/tom/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (30.2ms)
+  Rendering /home/tom/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/tom/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (24.7ms)
+  Rendered /home/tom/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (124.7ms)
+Started GET "/achievements/new" for 127.0.0.1 at 2017-02-22 13:17:10 +0000
+Processing by AchievementsController#new as HTML
+  Rendering achievements/new.html.erb within layouts/application
+  Rendered achievements/new.html.erb within layouts/application (56.8ms)
+Completed 200 OK in 770ms (Views: 703.3ms | ActiveRecord: 12.0ms)
+
+
+Started POST "/achievements" for 127.0.0.1 at 2017-02-22 13:17:47 +0000
+Processing by AchievementsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SMYOredeBJ8EqPoBvaBsFYnDQoA2Ow8nEFnPEy+JNzRIz+EZUF94xQ6+cawCp3IJ7fj8eLXr8Z4I7tKlNqlC3g==", "achievement"=>{"name"=>"Bob", "team"=>"Bold", "headline"=>"Woohoo!", "description"=>"Oh yeah!", "categories"=>"good", "date"=>"2017-02-02"}, "commit"=>"Submit Achievement"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[32mINSERT INTO "achievements" ("name", "team", "headline", "description", "date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Bob"], ["team", "Bold"], ["headline", "Woohoo!"], ["description", "Oh yeah!"], ["date", Thu, 02 Feb 2017], ["created_at", 2017-02-22 13:17:47 UTC], ["updated_at", 2017-02-22 13:17:47 UTC]]
+  [1m[35m (37.2ms)[0m  [1m[35mCOMMIT[0m
+  Rendering achievements/create.html.erb within layouts/application
+  Rendered achievements/create.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 175ms (Views: 107.8ms | ActiveRecord: 38.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-22 13:19:42 +0000
+Processing by AchievementsController#index as HTML
+  Rendering achievements/index.html.erb within layouts/application
+  [1m[36mAchievement Load (1.1ms)[0m  [1m[34mSELECT "achievements".* FROM "achievements"[0m
+  Rendered achievements/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 67ms (Views: 62.7ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/achievements" for 127.0.0.1 at 2017-02-22 13:20:42 +0000
+Processing by AchievementsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SMYOredeBJ8EqPoBvaBsFYnDQoA2Ow8nEFnPEy+JNzRIz+EZUF94xQ6+cawCp3IJ7fj8eLXr8Z4I7tKlNqlC3g==", "achievement"=>{"name"=>"Bob2", "team"=>"Bold2", "headline"=>"Woohoo!2", "description"=>"Oh yeah!2", "categories"=>"good2", "date"=>"2017-02-02"}, "commit"=>"Submit Achievement"}
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "achievements" ("name", "team", "headline", "description", "date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Bob2"], ["team", "Bold2"], ["headline", "Woohoo!2"], ["description", "Oh yeah!2"], ["date", Thu, 02 Feb 2017], ["created_at", 2017-02-22 13:20:42 UTC], ["updated_at", 2017-02-22 13:20:42 UTC]]
+  [1m[35m (6.8ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 52ms (ActiveRecord: 15.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-22 13:20:42 +0000
+Processing by AchievementsController#index as HTML
+  Rendering achievements/index.html.erb within layouts/application
+  [1m[36mAchievement Load (0.7ms)[0m  [1m[34mSELECT "achievements".* FROM "achievements"[0m
+  Rendered achievements/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 76ms (Views: 72.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-22 13:21:09 +0000
+Processing by AchievementsController#index as HTML
+  Rendering achievements/index.html.erb within layouts/application
+  [1m[36mAchievement Load (0.7ms)[0m  [1m[34mSELECT "achievements".* FROM "achievements"[0m
+  Rendered achievements/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 60ms (Views: 55.9ms | ActiveRecord: 0.7ms)
+>>>>>>> master
+
+
+Started GET "/" for ::1 at 2017-02-22 14:05:06 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by AchievementsController#index as HTML
+  Rendering achievements/index.html.erb within layouts/application
+  [1m[36mAchievement Load (0.4ms)[0m  [1m[34mSELECT "achievements".* FROM "achievements"[0m
+  Rendered achievements/index.html.erb within layouts/application (6.8ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+Completed 200 OK in 240ms (Views: 228.2ms | ActiveRecord: 1.4ms)
 
 

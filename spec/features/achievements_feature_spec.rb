@@ -1,7 +1,7 @@
 require 'rails_helper'
 
-feature "acheivements" do
-  scenario "user should see link to add acheivement" do
+feature "achievements" do
+  scenario "user should see link to add achievement" do
     visit "/"
     expect(page).to have_link "Add Achievement"
   end

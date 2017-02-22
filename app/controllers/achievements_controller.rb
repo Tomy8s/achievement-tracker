@@ -1,4 +1,4 @@
-class AcheivementsController < ApplicationController
+class AchievementsController < ApplicationController
 
   def create
     @achievement = Achievement.create(achievement_params)

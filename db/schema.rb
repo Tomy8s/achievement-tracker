@@ -15,17 +15,6 @@ ActiveRecord::Schema.define(version: 20170222145008) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "acheivements", force: :cascade do |t|
-    t.string   "name"
-    t.string   "team"
-    t.string   "headline"
-    t.text     "description"
-    t.text     "categories",  default: [],              array: true
-    t.date     "date"
-    t.datetime "created_at",               null: false
-    t.datetime "updated_at",               null: false
-  end
-
   create_table "achievements", force: :cascade do |t|
     t.string   "name"
     t.string   "team"

@@ -1,2 +1,2 @@
-module AcheivementsHelper
+module AchievementsHelper
 end

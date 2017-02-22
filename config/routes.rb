@@ -1,13 +1,13 @@
 Rails.application.routes.draw do
-  root to: 'acheivements#index'
+  root to: 'achievements#index'
 
-  get 'acheivements/create'
+  get 'achievements/create'
 
-  get 'acheivements/new'
+  get 'achievements/new'
 
-  get 'acheivements/index'
+  get 'achievements/index'
 
-  get 'acheivements/show'
+  get 'achievements/show'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

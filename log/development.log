@@ -55,3 +55,378 @@ Processing by AcheivementsController#index as HTML
 Completed 200 OK in 24ms (Views: 21.8ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2017-02-22 11:38:10 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by AcheivementsController#index as HTML
+  Rendering acheivements/index.html.erb within layouts/application
+  Rendered acheivements/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 634ms (Views: 623.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-22 11:43:09 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by AcheivementsController#index as HTML
+  Rendering acheivements/index.html.erb within layouts/application
+  Rendered acheivements/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 3856ms (Views: 3847.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-22 11:43:40 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by AcheivementsController#index as HTML
+  Rendering acheivements/index.html.erb within layouts/application
+  Rendered acheivements/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 198ms (Views: 190.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-22 11:46:08 +0000
+Processing by AcheivementsController#index as HTML
+  Rendering acheivements/index.html.erb within layouts/application
+  Rendered acheivements/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 23ms (Views: 21.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-22 11:46:12 +0000
+Processing by AcheivementsController#index as HTML
+  Rendering acheivements/index.html.erb within layouts/application
+  Rendered acheivements/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 25ms (Views: 23.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-22 11:46:13 +0000
+Processing by AcheivementsController#index as HTML
+  Rendering acheivements/index.html.erb within layouts/application
+  Rendered acheivements/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 26ms (Views: 24.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-22 11:46:14 +0000
+Processing by AcheivementsController#index as HTML
+  Rendering acheivements/index.html.erb within layouts/application
+  Rendered acheivements/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 35ms (Views: 32.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-22 11:46:15 +0000
+Processing by AcheivementsController#index as HTML
+  Rendering acheivements/index.html.erb within layouts/application
+  Rendered acheivements/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 59ms (Views: 56.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-22 11:46:47 +0000
+Processing by AcheivementsController#index as HTML
+  Rendering acheivements/index.html.erb within layouts/application
+  Rendered acheivements/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 25ms (Views: 24.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-22 11:46:49 +0000
+Processing by AcheivementsController#index as HTML
+  Rendering acheivements/index.html.erb within layouts/application
+  Rendered acheivements/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 31ms (Views: 29.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-22 11:46:49 +0000
+Processing by AcheivementsController#index as HTML
+  Rendering acheivements/index.html.erb within layouts/application
+  Rendered acheivements/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 45ms (Views: 43.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-22 11:46:49 +0000
+Processing by AcheivementsController#index as HTML
+  Rendering acheivements/index.html.erb within layouts/application
+  Rendered acheivements/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 43ms (Views: 40.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-22 11:47:08 +0000
+Processing by AcheivementsController#index as HTML
+  Rendering acheivements/index.html.erb within layouts/application
+  Rendered acheivements/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 40ms (Views: 38.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-22 11:48:24 +0000
+Processing by AcheivementsController#index as HTML
+  Rendering acheivements/index.html.erb within layouts/application
+  Rendered acheivements/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1330ms (Views: 1328.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-22 11:48:34 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by AcheivementsController#index as HTML
+  Rendering acheivements/index.html.erb within layouts/application
+  Rendered acheivements/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 224ms (Views: 213.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-22 11:48:48 +0000
+Processing by AcheivementsController#index as HTML
+  Rendering acheivements/index.html.erb within layouts/application
+  Rendered acheivements/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1300ms (Views: 1298.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-22 11:49:54 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by AcheivementsController#index as HTML
+  Rendering acheivements/index.html.erb within layouts/application
+  Rendered acheivements/index.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 160ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'boostrap' with type 'application/javascript'
+Checked in these paths: 
+  /Users/jonny/projects/achievment-tracker/app/assets/config
+  /Users/jonny/projects/achievment-tracker/app/assets/images
+  /Users/jonny/projects/achievment-tracker/app/assets/javascripts
+  /Users/jonny/projects/achievment-tracker/app/assets/stylesheets
+  /Users/jonny/projects/achievment-tracker/vendor/assets/javascripts
+  /Users/jonny/projects/achievment-tracker/vendor/assets/stylesheets
+  /Users/jonny/.rvm/gems/ruby-2.3.0/gems/jquery-rails-4.2.2/vendor/assets/javascripts
+  /Users/jonny/.rvm/gems/ruby-2.3.0/gems/coffee-rails-4.2.1/lib/assets/javascripts
+  /Users/jonny/.rvm/gems/ruby-2.3.0/gems/actioncable-5.0.1/lib/assets/compiled
+  /Users/jonny/.rvm/gems/ruby-2.3.0/gems/turbolinks-source-5.0.0/lib/assets/javascripts
+  /Users/jonny/.rvm/gems/ruby-2.3.0/gems/bootstrap-sass-3.3.7/assets/stylesheets
+  /Users/jonny/.rvm/gems/ruby-2.3.0/gems/bootstrap-sass-3.3.7/assets/javascripts
+  /Users/jonny/.rvm/gems/ruby-2.3.0/gems/bootstrap-sass-3.3.7/assets/fonts
+  /Users/jonny/.rvm/gems/ruby-2.3.0/gems/bootstrap-sass-3.3.7/assets/images):
+    4:     <title>AchievmentTracker</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/javascripts/application.js:1
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___832307127599313033_70268856191220'
+  Rendering /Users/jonny/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/jonny/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/jonny/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.3ms)
+  Rendering /Users/jonny/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jonny/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendering /Users/jonny/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jonny/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/jonny/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (55.4ms)
+Started GET "/" for ::1 at 2017-02-22 11:50:30 +0000
+Processing by AcheivementsController#index as HTML
+  Rendering acheivements/index.html.erb within layouts/application
+  Rendered acheivements/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 292ms (Views: 288.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-22 11:53:22 +0000
+Processing by AcheivementsController#index as HTML
+  Rendering acheivements/index.html.erb within layouts/application
+  Rendered acheivements/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 35ms (Views: 33.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-22 11:55:11 +0000
+Processing by AcheivementsController#index as HTML
+  Rendering acheivements/index.html.erb within layouts/application
+  Rendered acheivements/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 33ms (Views: 31.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-22 11:55:13 +0000
+Processing by AcheivementsController#index as HTML
+  Rendering acheivements/index.html.erb within layouts/application
+  Rendered acheivements/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 40ms (Views: 38.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/navbar/" for ::1 at 2017-02-22 11:55:15 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/navbar"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.7.1) lib/puma/configuration.rb:232:in `call'
+puma (3.7.1) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.1) lib/puma/server.rb:415:in `process_client'
+puma (3.7.1) lib/puma/server.rb:275:in `block in run'
+puma (3.7.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/jonny/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/jonny/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jonny/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered collection of /Users/jonny/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [20 times] (6.1ms)
+  Rendered /Users/jonny/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (7.2ms)
+  Rendering /Users/jonny/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jonny/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/jonny/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (76.3ms)
+Started GET "/navbar/" for ::1 at 2017-02-22 11:55:34 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/navbar"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.7.1) lib/puma/configuration.rb:232:in `call'
+puma (3.7.1) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.1) lib/puma/server.rb:415:in `process_client'
+puma (3.7.1) lib/puma/server.rb:275:in `block in run'
+puma (3.7.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/jonny/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/jonny/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jonny/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered collection of /Users/jonny/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [20 times] (5.0ms)
+  Rendered /Users/jonny/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendering /Users/jonny/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jonny/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/jonny/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (70.6ms)
+Started GET "/" for ::1 at 2017-02-22 11:55:37 +0000
+Processing by AcheivementsController#index as HTML
+  Rendering acheivements/index.html.erb within layouts/application
+  Rendered acheivements/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 33ms (Views: 31.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-22 11:57:02 +0000
+Processing by AcheivementsController#index as HTML
+  Rendering acheivements/index.html.erb within layouts/application
+  Rendered acheivements/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 32ms (Views: 30.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-22 11:59:21 +0000
+Processing by AcheivementsController#index as HTML
+  Rendering acheivements/index.html.erb within layouts/application
+  Rendered acheivements/index.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 35ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial acheivements/__navbar, application/__navbar with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/jonny/projects/achievment-tracker/app/views"
+  * "/Users/jonny/.rvm/gems/ruby-2.3.0/gems/devise-4.2.0/app/views"
+):
+     9:   </head>
+    10: 
+    11:   <body>
+    12:     <%= render "_navbar" %>
+    13: 
+    14:     <p class="notice"><%= notice %></p>
+    15:     <p class="alert"><%= alert %></p>
+  
+app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___832307127599313033_70268847310980'
+  Rendering /Users/jonny/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/jonny/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/jonny/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.1ms)
+  Rendering /Users/jonny/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jonny/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /Users/jonny/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jonny/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/jonny/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (45.4ms)
+Started GET "/" for ::1 at 2017-02-22 11:59:29 +0000
+Processing by AcheivementsController#index as HTML
+  Rendering acheivements/index.html.erb within layouts/application
+  Rendered acheivements/index.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 53ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial acheivements/_navbar, application/_navbar with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/jonny/projects/achievment-tracker/app/views"
+  * "/Users/jonny/.rvm/gems/ruby-2.3.0/gems/devise-4.2.0/app/views"
+):
+     9:   </head>
+    10: 
+    11:   <body>
+    12:     <%= render "navbar" %>
+    13: 
+    14:     <p class="notice"><%= notice %></p>
+    15:     <p class="alert"><%= alert %></p>
+  
+app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___832307127599313033_70268926227820'
+  Rendering /Users/jonny/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/jonny/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/jonny/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.2ms)
+  Rendering /Users/jonny/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jonny/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /Users/jonny/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jonny/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/jonny/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (45.0ms)
+Started GET "/" for ::1 at 2017-02-22 11:59:54 +0000
+Processing by AcheivementsController#index as HTML
+  Rendering acheivements/index.html.erb within layouts/application
+  Rendered acheivements/index.html.erb within layouts/application (0.2ms)
+  Rendered shared/_navbar.html.erb (0.3ms)
+Completed 200 OK in 41ms (Views: 39.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-22 12:00:59 +0000
+Processing by AcheivementsController#index as HTML
+  Rendering acheivements/index.html.erb within layouts/application
+  Rendered acheivements/index.html.erb within layouts/application (0.3ms)
+  Rendered shared/_navbar.html.erb (0.3ms)
+Completed 200 OK in 43ms (Views: 41.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-22 12:01:13 +0000
+Processing by AcheivementsController#index as HTML
+  Rendering acheivements/index.html.erb within layouts/application
+  Rendered acheivements/index.html.erb within layouts/application (0.3ms)
+  Rendered shared/_navbar.html.erb (0.3ms)
+Completed 200 OK in 40ms (Views: 38.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-22 12:01:30 +0000
+Processing by AcheivementsController#index as HTML
+  Rendering acheivements/index.html.erb within layouts/application
+  Rendered acheivements/index.html.erb within layouts/application (0.3ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+Completed 200 OK in 42ms (Views: 40.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-22 12:08:46 +0000
+Processing by AcheivementsController#index as HTML
+  Rendering acheivements/index.html.erb within layouts/application
+  Rendered acheivements/index.html.erb within layouts/application (0.3ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+Completed 200 OK in 1228ms (Views: 1226.3ms | ActiveRecord: 0.0ms)
+
+

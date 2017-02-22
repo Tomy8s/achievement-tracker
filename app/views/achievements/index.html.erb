@@ -1,6 +1,7 @@
 <h1>My Team's Achievements</h1>
 <hr/>
 
+<% if @achievements.any? %>
 <ul class='list-group' style="text-align:center;">
   <% @achievements.each do |a| %>
     <div class="achievement">
@@ -29,6 +30,11 @@
         </div>
       </div>
     </div>
-    <br>
-  <% end %>
+  </div>
+</div>
+<br>
 </ul>
+<% end %>
+<% else %>
+  <div> No one has added any achievements yet.</div>
+<% end %>

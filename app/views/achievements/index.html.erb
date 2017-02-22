@@ -4,8 +4,14 @@
 <ul class='list-group' style="text-align:center;">
   <% @achievements.each do |a| %>
     <div class="achievement">
-    <li class='list-group-item active'><strong><%= a.name %> | <%= a.headline %> | <%= a.date %></strong></li>
-    <li class='list-group-item'><%= a.description %></li>
+      <li class='list-group-item active'><a href="#description" class="btn btn-link" data-toggle="collapse" style="color:white;text-decoration:none;">
+        <strong>
+          <%= a.name %> | <%= a.headline %> | <%= a.date %><a>
+        </strong>
+      </li>
+      <div class="collapse" id="description">
+        <li class='list-group-item'><%= a.description %></li>
+      </div>
     </div>
     <br>
   <% end %>

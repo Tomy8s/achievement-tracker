@@ -1,39 +1,30 @@
-<%= form_for @achievement do |f| %>
+<h1> Add your achievement </h1>
+<hr/>
+
+<%= bootstrap_form_for @achievement do |f| %>
 <div class='container' style="text-align:center;">
   <div class='form-group'>
-    <%= f.label :name %>
-    <br />
     <%= f.text_field :name%>
   </div>
 
   <div class='form-group'>
-    <%= f.label :team %>
-    <br />
     <%= f.text_field :team%>
   </div>
 
   <div class='form-group'>
-    <%= f.label :headline %>
-    <br />
-    <%= f.text_field :headline%>
+    <%= f.text_field :headline, label: "Summary" %>
   </div>
 
   <div class='form-group'>
-    <%= f.label :description %>
-    <br />
     <%= f.text_area :description%>
   </div>
 
   <div class='form-group'>
-    <%= f.label :categories %>
-    <br />
     <%= f.text_field :categories%>
   </div>
 
   <div class='form-group'>
-    <%= f.label :date %>
-    <br />
-    <%= f.date_field :date%>
+    <%= f.date_field :date, :value => Time.now.strftime('%Y-%m-%d')%>
   </div>
 
   <div class='form-group'>

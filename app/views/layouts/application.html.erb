@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>AchievementTracker</title>
+    <title>AchievmentTracker</title>
     <%= csrf_meta_tags %>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
@@ -12,11 +11,10 @@
 
   <body>
     <%= render "shared/navbar" %>
-    <div class='container'>
-
-    <p class="notice"><%= notice %></p>
-    <p class="alert"><%= alert %></p>
-    <%= yield %>
-  </div>
+    <div class="container">
+      <p class="notice"><%= notice %></p>
+      <p class="alert"><%= alert %></p>
+      <%= yield %>      
+    </div>
   </body>
 </html>

@@ -2,7 +2,11 @@
 <p>Find me in app/views/achievements/index.html.erb</p>
 
 <% @achievements.each do |a| %>
-  <%= a.headline  %>
+  <div class="achievement">
+  <%= a.name %>
+  <%= a.headline %>
+  <%= a.date %>
+  </div>
 <% end %>
 
 <%= link_to 'Add Achievement', new_achievement_path %> 

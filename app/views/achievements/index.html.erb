@@ -1,4 +1,8 @@
 <h1>achievements#index</h1>
 <p>Find me in app/views/achievements/index.html.erb</p>
 
+<% @achievements.each do |a| %>
+  <%= a.headline  %>
+<% end %>
+
 <%= link_to 'Add Achievement', new_achievement_path %> 

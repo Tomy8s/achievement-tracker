@@ -2,6 +2,7 @@ class AchievementsController < ApplicationController
 
   def create
     @achievement = Achievement.create(achievement_params)
+    redirect_to root_path
   end
 
   def new
@@ -9,6 +10,7 @@ class AchievementsController < ApplicationController
   end
 
   def index
+    @achievements = Achievement.all
   end
 
   def show

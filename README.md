@@ -1,6 +1,10 @@
 Achievement Tracker
 ===================
 
+MVP in a single sentence
+------------------------
+"Employee writes up an achievement, and her manager can see it."
+
 User stories
 ------------
 

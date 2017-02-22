@@ -22,3 +22,5 @@ Completed 200 OK in 2198ms (Views: 2171.9ms | ActiveRecord: 0.0ms)
 Completed 200 OK in 2208ms (Views: 2180.5ms | ActiveRecord: 0.0ms)
 
 
+  [1m[35m (779.0ms)[0m  [1m[35mCREATE DATABASE "achievment-tracker_development" ENCODING = 'unicode'[0m
+  [1m[35m (414.2ms)[0m  [1m[35mCREATE DATABASE "achievment-tracker_test" ENCODING = 'unicode'[0m

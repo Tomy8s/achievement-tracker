@@ -13,6 +13,17 @@
       <br/>
       <div class="collapse" id=<%=a.id %>
         <li class='list-group-item'><%= a.description %></li>
+         <div class="endorsements">
+          <% a.endorsement.each do |e| %>
+            <%= e.name %>
+            <%= e.comment %>
+            <%= e.created_at %>
+          <% end %>
+          <%= bootstrap_form_for [a, @endorsement] do |f| %>
+            <%= f.text_field :name%>
+            <%= f.text_field :comment %>
+            <%= f.submit "Endorse" %>
+        </div>
       </div>
     </div>
     <br>

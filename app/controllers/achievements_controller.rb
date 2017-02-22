@@ -11,6 +11,7 @@ class AchievementsController < ApplicationController
 
   def index
     @achievements = Achievement.all
+    @endorsement = Endorsement.new
   end
 
   def show

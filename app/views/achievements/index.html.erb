@@ -1,32 +1,36 @@
 <h1>My Team's Achievements</h1>
 <hr/>
 
+<% if @achievements.any? %>
 <ul class='list-group' style="text-align:center;">
   <% @achievements.each do |a| %>
-    <div class="achievement">
-      <li class='list-group-item active'><a href="#<%=a.id %>" class="btn btn-link" data-toggle="collapse" style="color:white;text-decoration:none;">
-        <strong>
-          <%= a.name %> | <%= a.headline %> | <%= a.date %>
-        </strong>
-      </a>
-      </li>
-      <br/>
-      <div class="collapse" id=<%=a.id %>
-        <li class='list-group-item'><%= a.description %></li>
-         <div class="endorsements">
-          <% a.endorsement.each do |e| %>
-            <%= e.name %>
-            <%= e.comment %>
-            <%= e.created_at %>
-          <% end %>
-          <%= bootstrap_form_for [a, @endorsement] do |f| %>
-            <%= f.text_field :name%>
-            <%= f.text_field :comment %>
-            <%= f.submit "Endorse" %>
-          <% end %>
-        </div>
-      </div>
+  <div class="achievement">
+    <li class='list-group-item active'><a href="#<%=a.id %>" class="btn btn-link" data-toggle="collapse" style="color:white;text-decoration:none;">
+      <strong>
+        <%= a.name %> | <%= a.headline %> | <%= a.date %>
+      </strong>
+    </a>
+  </li>
+  <br/>
+  <div class="collapse" id=<%=a.id %>
+    <li class='list-group-item'><%= a.description %></li>
+    <div class="endorsements">
+      <% a.endorsement.each do |e| %>
+      <%= e.name %>
+      <%= e.comment %>
+      <%= e.created_at %>
+      <% end %>
+      <%= bootstrap_form_for [a, @endorsement] do |f| %>
+      <%= f.text_field :name%>
+      <%= f.text_field :comment %>
+      <%= f.submit "Endorse" %>
+      <% end %>
     </div>
-    <br>
-  <% end %>
+  </div>
+</div>
+<br>
 </ul>
+<% end %>
+<% else %>
+  <div> No one has added any achievements yet.</div>
+<% end %>

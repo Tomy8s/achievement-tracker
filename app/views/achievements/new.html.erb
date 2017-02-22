@@ -1,15 +1,38 @@
-<%= form_for @achievement do |f| %>
-  <%= f.label :name %>
-  <%= f.text_field :name%>
-  <%= f.label :team %>
-  <%= f.text_field :team%>
-  <%= f.label :headline %>
-  <%= f.text_field :headline%>
-  <%= f.label :description %>
-  <%= f.text_field :description%>
-  <%= f.label :categories %>
-  <%= f.text_field :categories%>
-  <%= f.label :date %>
-  <%= f.date_field :date%>
-  <%= f.submit "Submit Achievement"%>
-<% end %>
+  <%= form_for @achievement do |f| %>
+<div class='container'>  
+  <div class='form-group'>
+    <%= f.label :name %>
+    <%= f.text_field :name%>
+  </div>
+
+  <div class='form-group'>
+    <%= f.label :team %>
+    <%= f.text_field :team%>
+  </div>
+
+  <div class='form-group'>
+    <%= f.label :headline %>
+    <%= f.text_field :headline%>
+  </div>
+
+  <div class='form-group'>
+    <%= f.label :description %>
+    <%= f.text_area :description%>
+  </div>
+
+  <div class='form-group'>
+    <%= f.label :categories %>
+    <%= f.text_field :categories%>
+  </div>
+
+  <div class='form-group'>
+    <%= f.label :date %>
+    <%= f.date_field :date%>
+  </div>
+
+  <div class='form-group'>
+    <%= f.submit "Submit Achievement"%>
+  </div>
+
+  <% end %>
+</div>

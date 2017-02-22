@@ -14,6 +14,7 @@ feature "achievements" do
   scenario "user should be taken to form to add achievement" do
     visit "/"
     click_link "Add an achievement"
+    fill_in "Name", with: "Test"
     fill_in "Summary", with: "Career fair"
     fill_in "Description", with: "It was fun"
     fill_in "Categories", with: "Sponsorship, Role model"
@@ -21,4 +22,5 @@ feature "achievements" do
     click_button "Submit Achievement"
     expect(page).to have_content "Career fair"
   end
+
 end
